@@ -9,3 +9,16 @@ const myNotes = require('./db/db.json');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+
+function makeNote () {
+    const newNote = 
+
+}
+
+
+// bonus 
+function deleteNote() {
+
+
+}
