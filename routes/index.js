@@ -2,6 +2,8 @@ const { v4: uuidv4 } = require('uuid');
 
 const fs = require('fs')
 const routes = require('express').Router()
+
+// API routes
 routes.get("/notes", (req, res)=>{
     const allNotes = JSON.parse(fs.readFileSync("db/db.json"))
     res.json(allNotes)
@@ -19,6 +21,7 @@ routes.post("/notes", (req, res)=>{
     res.json(allNotes)
 })
 
+// delete notes by id 
 routes.delete("/notes/:id", (req, res)=> {
     const deleteNote = req.params.id
     const allNotes = JSON.parse(fs.readFileSync("db/db.json"))

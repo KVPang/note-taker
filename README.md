@@ -1,6 +1,7 @@
 # Note Taker
 
 ## Description
+This application may be used for creating and saving notes
 
 ## User Story
 ```
@@ -32,7 +33,20 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 
 ## Mock-Ups
+![start](./public/assets/images/startscreen.JPG)
+![addnote](./public/assets/images/addnote.JPG)
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript 
+- Node.js
+- Express.js
+- Heroku
 
 ## Links 
 - **GitHub:** https://github.com/KVPang/note-taker
-- **Deployed Application:**
+- **Deployed Application:** https://note-taker-0120.herokuapp.com/
+
+## Contact
+- [GitHub](https://github.com/KVPang)
